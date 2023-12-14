@@ -197,7 +197,7 @@ brew install --cask \
 - [VSCode](https://code.visualstudio.com/)
 - [Docker](https://www.docker.com/)
 - [Insomnia](https://insomnia.rest/)
-- [Jetbrains toolbox]
+- [Jetbrains toolbox](https://www.jetbrains.com/toolbox-app/)
 
 - brew install --cask 
 
@@ -258,7 +258,7 @@ brew install jesseduffield/lazydocker/lazydocker
 
 ## Git LFS & Flow
 
-- Install
+install
 
 ```bash
 brew install git-lfs git-flow
@@ -266,7 +266,7 @@ brew install git-lfs git-flow
 
 ## Configuring the client
 
-- set the configuration file
+set the configuration file
 
 ```bash
 ln -s $(pwd)/git/gitconfig ~/.gitconfig
@@ -305,7 +305,7 @@ brew tap homebrew/cask-fonts
 brew install font-hack-nerd-font
 ```
 
-- Copy Fonts
+copy fonts
 
 ```bash
 cp -r "$(pwd)/fonts/"* ~/Library/Fonts
@@ -315,14 +315,14 @@ cp -r "$(pwd)/fonts/"* ~/Library/Fonts
 
 [oh my Zsh](https://ohmyz.sh/) project is a good terminal add-on to be added in our development environment.
 
-- install
+install
 
 ```bash
 # Oh My ZSH
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
-- set the configuration file
+set the configuration file
 
 ```bash
 ln -s $(pwd)/zsh/zshrc ~/.zshrc
@@ -332,36 +332,35 @@ ln -s $(pwd)/zsh/zshrc ~/.zshrc
 
 Here are some plugins that can be used alognside with Oh My Zsh, and make your experience much better.
 
-- zsh-autosuggestions
+zsh-autosuggestions
 
 ```bash
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
 ```
 
-- zsh-syntax-highlighting
+zsh-syntax-highlighting
 
 ```bash
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
 ```
 
-- zsh-async
+zsh-async
 
 ```bash
 git clone https://github.com/mafredri/zsh-async ~/.oh-my-zsh/plugins/async
 ```
 
-- zsh-nvm
+zsh-nvm
 
 ```bash
 git clone https://github.com/lukechilds/zsh-nvm ~/.oh-my-zsh/custom/plugins/zsh-nvm
 ```
 
-- powerlevel10k
+powerlevel10k
 
 ```bash
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
 ```
-
 
 ```bash
 ln -s $(pwd)/zsh/p10k ~/.p10k.zsh
@@ -374,9 +373,9 @@ git clone https://github.com/g-plane/zsh-yarn-autocompletions ~/.oh-my-zsh/custo
 
 ## Terminal
 
-To add some new configurations and special tools to the terminal, you can execute the following command to import those.
+to add some new configurations and special tools to the terminal, you can execute the following command to import those
 
-- set the configuration file
+set the configuration file
 
 ```bash
 ln -s $(pwd)/bash/bash_alias ~/.bash_alias
@@ -406,7 +405,7 @@ You can change the Mac Terminal application appearance with some quick steps.
 # Node, NVM, Yarn
 ## NVM
 
-There is no better way to manage node than using [NVM](https://github.com/nvm-sh/nvm)
+there is no better way to manage `node` than using [NVM](https://github.com/nvm-sh/nvm)
 
 ```bash
 # NVM
@@ -415,7 +414,7 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash
 
 ### Updating NVM
 
-To update NVM to a newer version, you can use this command without losing your globals. Remember to change `<version>` to the version you want installed.
+to update NVM to a newer version, you can use this command without losing your globals. Remember to change `<version>` to the version you want installed.
 
 ```bash
 nvm install <version> --reinstall-packages-from=$(nvm current)
@@ -425,7 +424,7 @@ nvm alias default <version>
 
 ## Yarn
 
-I prefer to use Yarn as the package manager, but this is a personal selection.
+i prefer to use `yarn` as the package manager, but this is a personal selection.
 
 ```bash
 # Yarn
@@ -434,7 +433,7 @@ curl -o- -L https://yarnpkg.com/install.sh | bash
 
 ## NPMJS.com
 
-Set the defaults value for your NPM user
+set the defaults value for your NPM user
 
 ```bash
 npm set init.author.name "your name"
@@ -442,7 +441,7 @@ npm set init.author.email "you@example.com"
 npm set init.author.url "example.com"
 ```
 
-Then login into NPM with
+then login into `NPM` with
 
 ```bash
 npm adduser
@@ -452,7 +451,7 @@ npm adduser
 
 ## Aws
 
-- Install
+install
 
 ```bash
 brew install awscli aws-keychain aws-elasticbeanstalk
