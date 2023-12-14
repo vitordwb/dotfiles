@@ -124,19 +124,19 @@ defaults write com.apple.finder ShowStatusBar -bool true; killall Finder;
 
 first you need to setup your apple account to be able to use the AppStore, then you will need to download some applications
 
-- [Magnet](https://apps.apple.com/br/app/magnet/id441258766?l=en&mt=12) (There is an alternative `rectangle`) -
+- [Magnet](https://apps.apple.com/br/app/magnet/id441258766?l=en&mt=12) (alternative: `rectangle`)
 
 - [Xcode](https://apps.apple.com/br/app/xcode/id497799835?l=en&mt=12)
 
-> After installing the Xcode, you need to open it for the first time accept some licenses to use it fully.
+> after installing the Xcode, you need to open it for the first time accept some licenses to use it fully.
 
-- Install xCode Terminal Tools
+- install xCode Terminal Tools
 
 ```bash
 xcode-select --install
 ```
 
-- Accept xCode License
+- accept xCode License
 
 ```bash
 sudo xcodebuild -license accept
@@ -168,33 +168,27 @@ Here the list is divided into categories so you can know what kind of applicatio
 
 #### Browsers
 
-- [Firefox](https://www.mozilla.org/en-US/firefox/new/)
 - [Chrome](https://www.google.com/chrome/)
 - [Brave](https://brave.com/)
-- [Tor](https://brave.com/)
+- [Arc](https://arc.net/)
+
+brew install --cask arc
 
 ```bash
 brew install --cask \
-  firefox \
   google-chrome  \
   brave-browser \
-  tor \
+  arc \
 ```
 
 #### Multimedia
 
-- [Calibre](https://calibre-ebook.com/)
-- [Spotify](https://www.spotify.com/)
 - [Handbreak](https://handbrake.fr/)
-- [VLC](https://www.videolan.org/)
 - [imagemagick](https://www.imagemagick.org/)
 
 ```bash
 brew install --cask \
-  calibre \
-  spotify \
   handbreak \
-  vlc \
   imagemagick
 ```
 
@@ -204,9 +198,10 @@ brew install --cask \
 - [Sourcetree DesktopApp](https://www.sourcetreeapp.com/)
 - [VSCode](https://code.visualstudio.com/)
 - [Docker](https://www.docker.com/)
-- [SequelPro](http://sequelpro.com/)
-- [Postman](https://www.postman.com/)
 - [Insomnia](https://insomnia.rest/)
+- [Jetbrains toolbox]
+
+- brew install --cask 
 
 ```bash
 brew install --cask \
@@ -214,14 +209,12 @@ brew install --cask \
   sourcetree \
   visual-studio-code \
   docker \
-  sequel-pro \
-  postman \
   insomnia \
+  jetbrains-toolbox \
 ```
 
 #### Chat & IM
 
-- [Skype](https://www.skype.com/en/)
 - [Telegram](https://web.telegram.org/)
 - [Whatsapp](https://www.whatsapp.com/)
 - [Slack](https://slack.com/)
@@ -229,7 +222,6 @@ brew install --cask \
 
 ```bash
 brew install --cask \
-  skype \
   telegram \
   whatsapp \
   slack \
@@ -254,25 +246,6 @@ brew install --cask \
   maccy \
 ```
 
-_For the applications that don't have an install cask present in Homebrew_
-
-- [Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/)
-- [Dropbox](https://www.dropbox.com/)
-- [Filezilla](https://filezilla-project.org/)
-- [iStatsMenus](https://bjango.com/mac/istatmenus/)
-
-```bash
-curl -s 'https://api.macapps.link/pt/firefoxdev-dropbox-filezilla-istatmenus' | sh
-```
-
-**For the touchbar MacBook only**
-
-- [MTMR](https://github.com/Toxblh/MTMR)
-
-```bash
-brew install mtmr
-```
-
 > After installation, copy the content from the file `/mtmr/profile.json`, click in the MTMR icon in the menu bar, and click in `Preferences`, there paste the content, save and restart the application.
 
 #### Extra
@@ -295,13 +268,13 @@ brew install git-lfs git-flow
 
 ## Configuring the client
 
-- Set the configuration file
+- set the configuration file
 
 ```bash
 ln -s $(pwd)/git/gitconfig ~/.gitconfig
 ```
 
-After executing this commands, configure your Git user settings
+after executing this commands, configure your Git user settings
 
 ```bash
 git config --global user.name "Your Name"
@@ -310,7 +283,7 @@ git config --global email "you@your-domain.com"
 
 ### Improving Git Log
 
-You can add more colors to your git log output by executing this command.
+you can add more colors to your git log output by executing this command
 
 ```bash
 git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
@@ -342,16 +315,16 @@ cp -r "$(pwd)/fonts/"* ~/Library/Fonts
 
 ## ZSH
 
-The [oh my Zsh](https://ohmyz.sh/) project is a good terminal add-on to be added in our development environment.
+[oh my Zsh](https://ohmyz.sh/) project is a good terminal add-on to be added in our development environment.
 
-- Install
+- install
 
 ```bash
 # Oh My ZSH
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
-- Set the configuration file
+- set the configuration file
 
 ```bash
 ln -s $(pwd)/zsh/zshrc ~/.zshrc
@@ -405,30 +378,28 @@ git clone https://github.com/g-plane/zsh-yarn-autocompletions ~/.oh-my-zsh/custo
 
 To add some new configurations and special tools to the terminal, you can execute the following command to import those.
 
-- Set the configuration file
+- set the configuration file
 
 ```bash
 ln -s $(pwd)/bash/bash_alias ~/.bash_alias
 ln -s $(pwd)/bash/bash_profile ~/.bash_profile
 ln -s $(pwd)/bash/bashrc ~/.bashrc
-ln -s $(pwd)/bash/android ~/.android
-ln -s $(pwd)/bash/brew ~/.brew
 ln -s $(pwd)/bash/flutter ~/.flutter
 ln -s $(pwd)/bash/nvm-load ~/.nvm-load
 ln -s $(pwd)/bash/yarn-autocompletions.yml ~/.yarn-autocompletions.yml
 ```
 
->Attention, because inside the files `.android, .flutter, .nvm-load` there are specific configurations, with version based, please edit the file with the appropriate version before loading those.
+>attention, because inside the files `.nvm-load` there are specific configurations, with version based, please edit the file with the appropriate version before loading those.
 
 ### Theme
 
 You can change the Mac Terminal application appearance with some quick steps.
 
 1. Terminal > Settings Tab
-2. Click "Gear" icon
-3. Click Import...
-4. Select the `materialshell-dark.terminal` file
-5. Click Default
+2. click "Gear" icon
+3. click `import`
+4. select the `materialshell-dark.terminal` file
+5. click Default
 
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/77pu4602w1cusup0rlj1.png)
 
