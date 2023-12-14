@@ -80,37 +80,37 @@ hot corners shortcut
 
 _(Affects Finder and other Applications)_
 
-- show hidden files
+show hidden files
 
 ```bash
 defaults write com.apple.finder AppleShowAllFiles YES; killall Finder;
 ```
 
-- clear .DS_Store files
+clear .DS_Store files
 
 ```bash
 sudo find / -name .DS_Store -delete; killall Finder
 ```
 
-- take screenshots as jpg (usually smaller size) and not png
+take screenshots as jpg (usually smaller size) and not png
 
 ```bash
 defaults write com.apple.screencapture type jpg; killall Finder;
 ```
 
-- show library folder
+show library folder
 
 ```bash
 chflags nohidden ~/Library; killall Finder;
 ```
 
-- show path bar
+show path bar
 
 ```bash
 defaults write com.apple.finder ShowPathbar -bool true; killall Finder;
 ```
 
-- show status bar
+show status bar
 
 ```bash
 defaults write com.apple.finder ShowStatusBar -bool true; killall Finder;
@@ -128,7 +128,7 @@ first you need to setup your apple account to be able to use the AppStore, then 
 
 > after installing the Xcode, you need to open it for the first time accept some licenses to use it fully.
 
-- install xCode Terminal Tools
+install xCode Terminal Tools
 
 ```bash
 xcode-select --install
@@ -142,19 +142,19 @@ sudo xcodebuild -license accept
 
 ## Applications (GUI & DevTools)
 
-First we need to disable Gatekeeper in order to use non-Apple signed applications.
+first we need to disable Gatekeeper in order to use non-Apple signed applications.
 
 ```bash
 sudo spctl --master-disable
 ```
 
-- Homebrew
+Homebrew
 
 ```bash
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-Now we need to update everything in Homebrew, after the first installation.
+now we need to update everything in Homebrew, after the first installation.
 
 ```bash
 brew update
@@ -169,8 +169,6 @@ Here the list is divided into categories so you can know what kind of applicatio
 - [Chrome](https://www.google.com/chrome/)
 - [Brave](https://brave.com/)
 - [Arc](https://arc.net/)
-
-brew install --cask arc
 
 ```bash
 brew install --cask \
@@ -198,8 +196,6 @@ brew install --cask \
 - [Docker](https://www.docker.com/)
 - [Insomnia](https://insomnia.rest/)
 - [Jetbrains toolbox](https://www.jetbrains.com/toolbox-app/)
-
-- brew install --cask 
 
 ```bash
 brew install --cask \
