@@ -16,11 +16,11 @@ These are configurations done in the MacOs settings.
 - automatic hide
 - medium dock
 - gennie effect
-- "double-click a window's title bar to" `zoom`
+- "double-click a window's title bar to"   `zoom`
 - "minimize windows into application icon" `on`
-- "animate opening applications" `on`
-- "show recent applications in dock" `off`
-- "show indicators for open applications" `on`
+- "animate opening applications"           `on`
+- "show recent applications in dock"       `off`
+- "show indicators for open applications"  `on`
 - "show suggested and recent apps in Dock" `off`
  
 ![image-removebg-preview](https://github.com/vitordwb/mac.environment/assets/64985648/6ffab95c-a205-44e9-9459-cfdaac5dc26c)
@@ -50,10 +50,10 @@ hot corners shortcut
 
 ### Keyboard
 
-- Text
-- Disable "Add full stop with double-space"
-- Disable "Use smart quotes and dashes"
-- Use `"` for double quotes
+- text
+- sisable "Add full stop with double-space"
+- sisable "Use smart quotes and dashes"
+- use `"` for double quotes
 - use `'` for single quotes
 
 ![image-removebg-preview (3)](https://github.com/vitordwb/mac.environment/assets/64985648/4fcce15a-86c5-4945-9058-97e486915504)
