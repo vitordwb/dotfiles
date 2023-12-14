@@ -1,4 +1,4 @@
-# MacOS - Development setup for new Notebooks and Desktops
+# MacOS - Development setup for new machine
 
 This are the configurations I need to setup a new MacOS development environment in a new machine.
 
