@@ -1,14 +1,12 @@
 # MacOS - Development setup for new machine
 
-This are the configurations I need to setup a new MacOS development environment in a new machine.
+these are the configurations I need to setup a new MacOS development environment in a new machine
 
-After finishing your MacOS initial setup, you will face that default screen with many default Apple apps on the docker, and nothing configured.
-
-Now let's configure the MacOS with the basic settings.
+after finishing your MacOS initial setup, you will face that default screen with many default Apple apps on the docker, and nothing configured
 
 ## Settings
 
-These are configurations done in the MacOs settings.
+these are configurations done in the MacOs settings
 
 ### Desktop & Dock
 
