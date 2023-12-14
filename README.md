@@ -49,8 +49,8 @@ hot corners shortcut
 ### Keyboard
 
 - text
-- sisable "Add full stop with double-space"
-- sisable "Use smart quotes and dashes"
+- "add full stop with double-space" `off`
+- "use smart quotes and dashes" `off`
 - use `"` for double quotes
 - use `'` for single quotes
 
