@@ -122,8 +122,6 @@ defaults write com.apple.finder ShowStatusBar -bool true; killall Finder;
 
 first you need to setup your apple account to be able to use the AppStore, then you will need to download some applications
 
-- [Magnet](https://apps.apple.com/br/app/magnet/id441258766?l=en&mt=12) (alternative: `rectangle`)
-
 - [Xcode](https://apps.apple.com/br/app/xcode/id497799835?l=en&mt=12)
 
 > after installing the Xcode, you need to open it for the first time accept some licenses to use it fully.
