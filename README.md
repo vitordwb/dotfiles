@@ -166,13 +166,15 @@ Here the list is divided into categories so you can know what kind of applicatio
 
 - [Zen](https://zen-browser.app/download/)
 
-#### DevTools
+#### Tools
 
 - [Sourcetree DesktopApp](https://www.sourcetreeapp.com/)
 - [VSCode](https://code.visualstudio.com/)
 - [Docker](https://www.docker.com/)
 - [Insomnia](https://insomnia.rest/)
 - [Jetbrains toolbox](https://www.jetbrains.com/toolbox-app/)
+- [Raycast](https://www.raycast.com/)
+- [Lazy Docker](https://github.com/jesseduffield/lazydocker#installation)
 
 ```bash
 brew install --cask \
@@ -183,25 +185,8 @@ brew install --cask \
   jetbrains-toolbox \
   neovim \
   tmux \
-```
-
-#### Utilities
-
-- [Raycast](https://www.raycast.com/)
-
-```bash
-brew install --cask \
   raycast \
-```
-
-> After installation, copy the content from the file `/mtmr/profile.json`, click in the MTMR icon in the menu bar, and click in `Preferences`, there paste the content, save and restart the application.
-
-#### Extra
-
-- [Lazy Docker](https://github.com/jesseduffield/lazydocker#installation)
-
-```bash
-brew install jesseduffield/lazydocker/lazydocker
+  jesseduffield/lazydocker/lazydocker \
 ```
 
 # Git
@@ -374,30 +359,11 @@ nvm alias default <version>
 
 ## Yarn
 
-i prefer to use `yarn` as the package manager, but this is a personal selection.
 
 ```bash
 # Yarn
 curl -o- -L https://yarnpkg.com/install.sh | bash
 ```
-
-## NPMJS.com
-
-set the defaults value for your NPM user
-
-```bash
-npm set init.author.name "your name"
-npm set init.author.email "you@example.com"
-npm set init.author.url "example.com"
-```
-
-then login into `NPM` with
-
-```bash
-npm adduser
-```
-
-# Extra
 
 ## Aws
 
