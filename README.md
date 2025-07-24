@@ -164,33 +164,12 @@ brew update
 
 Here the list is divided into categories so you can know what kind of application you are installing.
 
-#### Browsers
+#### Browser
 
-- [Chrome](https://www.google.com/chrome/)
-- [Brave](https://brave.com/)
-- [Arc](https://arc.net/)
-
-```bash
-brew install --cask \
-  google-chrome  \
-  brave-browser \
-  arc \
-```
-
-#### Multimedia
-
-- [Handbreak](https://handbrake.fr/)
-- [imagemagick](https://www.imagemagick.org/)
-
-```bash
-brew install --cask \
-  handbreak \
-  imagemagick
-```
+- [Zen](https://zen-browser.app/download/)
 
 #### DevTools
 
-- [GitHub DesktopApp](https://desktop.github.com/)
 - [Sourcetree DesktopApp](https://www.sourcetreeapp.com/)
 - [VSCode](https://code.visualstudio.com/)
 - [Docker](https://www.docker.com/)
@@ -199,45 +178,22 @@ brew install --cask \
 
 ```bash
 brew install --cask \
-  github \
-  sourcetree \
+  git \
   visual-studio-code \
   docker \
   insomnia \
   jetbrains-toolbox \
-```
-
-#### Chat & IM
-
-- [Telegram](https://web.telegram.org/)
-- [Whatsapp](https://www.whatsapp.com/)
-- [Slack](https://slack.com/)
-- [Discord](https://discord.com/)
-
-```bash
-brew install --cask \
-  telegram \
-  whatsapp \
-  slack \
-  discord \
+  neovim \
+  tmux \
 ```
 
 #### Utilities
 
-- [HyperSwitch](https://bahoom.com/hyperswitch)
-- [Rectangle](https://rectangleapp.com/)
-- [Keka](https://www.keka.io/)
-- [Caffeine](https://caffeine.en.softonic.com/mac)
-- [Maccy](https://maccy.app/)
+- [Raycast](https://www.raycast.com/)
 
 ```bash
 brew install --cask \
-  hyperswitch \
-  rectangle \
-  keka \
-  kekaexternalhelper \
-  caffeine \
-  maccy \
+  raycast \
 ```
 
 > After installation, copy the content from the file `/mtmr/profile.json`, click in the MTMR icon in the menu bar, and click in `Preferences`, there paste the content, save and restart the application.
