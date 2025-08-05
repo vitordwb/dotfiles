@@ -76,17 +76,24 @@ brew update
 
 ### Homebrew Casks
 ```bash
-brew install --cask \
+brew install \
   git \
-  visual-studio-code \
   docker \
-  insomnia \
-  jetbrains-toolbox \
+  colima \
   neovim \
   tmux \
+```
+
+
+```bash
+brew install --cask \
+  insomnia \
+  jetbrains-toolbox \
   raycast \
   jesseduffield/lazydocker/lazydocker
 ```
+
+
 
 ---
 
