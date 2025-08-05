@@ -12,12 +12,6 @@
 - Double-click window title: `zoom`
 - Animate app openings: `on`
 
-### Hot Corners
-![Hot Corners](https://github.com/vitordwb/mac.environment/assets/64985648/99429181-4cf4-4f84-8991-fcab15caafa7)
-
-### Displays
-![Displays](https://github.com/vitordwb/mac.environment/assets/64985648/d54e8c70-30b9-45c7-af47-3eb25122dee7)
-
 ### Security
 - FileVault: `on`
 
