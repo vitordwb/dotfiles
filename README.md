@@ -38,18 +38,6 @@
 
 ---
 
-## Terminal Tweaks (macOS defaults)
-```bash
-defaults write com.apple.finder AppleShowAllFiles YES; killall Finder
-sudo find / -name .DS_Store -delete; killall Finder
-defaults write com.apple.screencapture type jpg; killall SystemUIServer
-chflags nohidden ~/Library; killall Finder
-defaults write com.apple.finder ShowPathbar -bool true; killall Finder
-defaults write com.apple.finder ShowStatusBar -bool true; killall Finder
-```
-
----
-
 ## App Store Setup
 - Sign into Apple account
 - Install: [Xcode](https://apps.apple.com/br/app/xcode/id497799835?l=en&mt=12)
