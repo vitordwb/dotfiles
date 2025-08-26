@@ -137,24 +137,3 @@ ln -s $(pwd)/bash/yarn-autocompletions.yml ~/.yarn-autocompletions.yml
 
 ![Theme Import](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/77pu4602w1cusup0rlj1.png)
 ![Theme Applied](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/gfk6ihhzv4nabghz4z51.png)
-
----
-
-## Node.js / Yarn
-
-### NVM (Node Version Manager)
-```bash
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash
-```
-
-#### Update to New Version
-```bash
-nvm install <version> --reinstall-packages-from=$(nvm current)
-nvm use <version>
-nvm alias default <version>
-```
-
-### Yarn
-```bash
-curl -o- -L https://yarnpkg.com/install.sh | bash
-```
