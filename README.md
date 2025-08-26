@@ -70,6 +70,7 @@ brew install --cask
   jetbrains-toolbox 
   raycast 
   docker
+  iterm2
 ```
 
 ---
