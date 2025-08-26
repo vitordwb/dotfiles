@@ -60,7 +60,6 @@ sudo xcodebuild -license accept
 ```bash
 brew install \
   git \
-  docker \
   colima \
   neovim \
   tmux \
@@ -72,7 +71,7 @@ brew install --cask \
   insomnia \
   jetbrains-toolbox \
   raycast \
-  jesseduffield/lazydocker/lazydocker
+  docker
 ```
 
 
