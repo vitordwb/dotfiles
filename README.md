@@ -44,8 +44,6 @@
 xcode-select --install
 ```
 
----
-
 ## Homebrew
 - Install: [site](https://brew.sh/)
 
