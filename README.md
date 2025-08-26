@@ -58,20 +58,21 @@ sudo xcodebuild -license accept
 
 ### Homebrew Casks
 ```bash
-brew install \
-  git \
-  colima \
-  neovim \
-  tmux \
+brew install
+  \ git
+  \ colima
+  \ neovim
+  \ tmux
+  \ yarn
 ```
 
 
 ```bash
-brew install --cask \
-  insomnia \
-  jetbrains-toolbox \
-  raycast \
-  docker
+brew install --cask
+  \ insomnia
+  \ jetbrains-toolbox
+  \ raycast
+  \ docker
 ```
 
 ---
