@@ -68,11 +68,11 @@ brew install
 
 
 ```bash
-brew install --cask
-  \ insomnia
-  \ jetbrains-toolbox
-  \ raycast
-  \ docker
+brew install --cask 
+  insomnia 
+  jetbrains-toolbox 
+  raycast 
+  docker
 ```
 
 ---
