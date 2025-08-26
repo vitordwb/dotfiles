@@ -38,13 +38,10 @@
 
 ---
 
-## App Store Setup
-- Sign into Apple account
-- Install: [Xcode](https://apps.apple.com/br/app/xcode/id497799835?l=en&mt=12)
+## Xcode
 
 ```bash
 xcode-select --install
-sudo xcodebuild -license accept
 ```
 
 ---
