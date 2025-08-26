@@ -74,7 +74,9 @@ brew install --cask \
   docker
 ```
 
+## Applications
 
+- [Insomnia](https://insomnia.rest/download)
 
 ---
 
