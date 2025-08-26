@@ -79,7 +79,6 @@ brew install --cask
 
 ## Git Setup
 ```bash
-brew install git-lfs git-flow
 ln -s $(pwd)/git/gitconfig ~/.gitconfig
 git config --global user.name "Your Name"
 git config --global user.email "you@your-domain.com"
