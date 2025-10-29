@@ -1,3 +1,48 @@
+# Dotfiles
+
+───────────────────────────────────────────────
+ °˖* ૮( • ᴗ ｡)っ🍸 shheersh - MacOS 1.0
+───────────────────────────────────────────────
+ ```
+     /\
+    /  \
+   /----\
+   | ++ |
+   | ++ |
+   |    |
+  /|____|\
+ /_||||||_\
+   /_||_\
+    /  \
+   /____\
+     ||
+     ||
+    /__\
+```
+
+```
+brew install stow
+```
+
+```
+git clone git@github.com:vitordwb/dotfiles.git ~/dotfiles
+```
+
+```
+cd ~/dotfiles
+
+# O comando 'stow' assume que o destino é o diretório PAI (ou seja, ~)
+
+stow tmux
+stow nvim
+stow git
+stow zsh
+
+# Ou, para "instalar" todos de uma vez:
+stow */
+```
+
+
 # My macOS Development Environment
 
 ## macOS Settings
