@@ -101,6 +101,7 @@ brew install
   \ neovim
   \ tmux
   \ yarn
+  \ borders
 ```
 
 
