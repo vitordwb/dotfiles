@@ -112,6 +112,7 @@ brew install --cask
   raycast 
   docker
   iterm2
+  xykong/tap/flux-markdown
 ```
 
 ---
