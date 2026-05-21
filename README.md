@@ -113,6 +113,7 @@ brew install --cask
   docker
   iterm2
   xykong/tap/flux-markdown
+  nikitabobko/tap/aerospace@0.12.0
 ```
 
 ---
