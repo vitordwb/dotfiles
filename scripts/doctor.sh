@@ -40,7 +40,7 @@ for command_name in git stow brew nvim tmux node npm bun; do
 done
 
 section "Dotfile Links"
-for target in .gitconfig .tmux.conf .zshrc .zprofile .ssh/config .config/nvim .config/aerospace .config/btop; do
+for target in .gitconfig .tmux.conf .zshrc .zprofile .ssh/config .config/nvim .config/aerospace .config/btop .config/borders; do
   check_symlink "$target"
 done
 
