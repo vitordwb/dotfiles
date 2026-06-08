@@ -1,0 +1,4 @@
+@earendil-works/pi-coding-agent
+@openai/codex
+pm2
+ts-node
