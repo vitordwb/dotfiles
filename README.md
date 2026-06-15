@@ -1,7 +1,5 @@
 # Dotfiles
 
-Personal macOS development environment bootstrap.
-
 ```text
              ,----------------,              ,---------,
         ,-----------------------,          ,"        ,"|
