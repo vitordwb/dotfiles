@@ -19,7 +19,7 @@ Personal macOS development environment bootstrap.
     /__\
 ```
 
-## Fresh Laptop
+## Fresh Start
 
 Install Xcode Command Line Tools first if Git is not available yet:
 
